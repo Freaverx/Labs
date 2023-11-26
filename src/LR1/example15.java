@@ -15,6 +15,6 @@ public class example15 {
         int num2 = in.nextInt();
         num = num1 - num2;
 
-        System.out.println("relust = " + num);
+        System.out.println("result = " + num);
     }
 }
