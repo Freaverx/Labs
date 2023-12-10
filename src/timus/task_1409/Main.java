@@ -20,7 +20,7 @@ public class Main {
         int larry = numberOfCans - b;
 
 
-        out.println(harry + "" + larry);
+        out.println(harry + " " + larry);
         out.flush();
     }
 }
