@@ -1,26 +1,78 @@
 package LR5;
 
 
-public class example3 {
+class example3 {
     public static void main(String[] args) {
 
     }
-    private int a;
-    private int b;
 
-    public void Main() {
-        a = 0;
-        b = 0;
+    private int firstField;
+
+    private int secondField;
+
+
+
+    public example3() {
+
+        this.firstField = 0;
+
+        this.secondField = 0;
+
     }
 
-    public void Main(int a) {
-        this.a = a;
-        b = 0;
+
+
+    public example3(int firstField) {
+
+        this.firstField = firstField;
+
+        this.secondField = 0;
+
     }
 
-    public void Main(int a, int b) {
-        this.a = a;
-        this.b = b;
+
+
+    public example3(int firstField, int secondField) {
+
+        this.firstField = firstField;
+
+        this.secondField = secondField;
+
+    }
+
+
+
+
+
+
+    public int getFirstField() {
+
+        return firstField;
+
+    }
+
+
+
+    public void setFirstField(int firstField) {
+
+        this.firstField = firstField;
+
+    }
+
+
+
+    public int getSecondField() {
+
+        return secondField;
+
+    }
+
+
+
+    public void setSecondField(int secondField) {
+
+        this.secondField = secondField;
+
     }
 
 }

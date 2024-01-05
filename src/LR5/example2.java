@@ -1,7 +1,7 @@
 package LR5;
 
 import java.lang.StringBuilder;
-public class example2 {
+class example2 {
     public static void main(String args[]) {
         Character start = 'A';
         Character end = 'D';

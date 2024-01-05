@@ -1,6 +1,6 @@
 package LR5;
 
-public class example1 {
+class example1 {
     public static void main(String[] args) {
         CharacterStore characterStore = new CharacterStore();
         characterStore.setValueAt(65);
