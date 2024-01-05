@@ -2,7 +2,7 @@ package LR4;
 
 import java.sql.SQLOutput;
 
-public class Main {
+public class example9 {
     public static void main(String[] args) {
         int figure = 10;
         int i;
