@@ -13,6 +13,7 @@ public class Main {
         BufferedReader bufferedReader =
                 oj ? new BufferedReader(new InputStreamReader(System.in)) :
                         new BufferedReader(new FileReader(inputFileName));
+
         int size1 = Integer.parseInt(bufferedReader.readLine());
         String[] strings1 = bufferedReader.readLine().split(" ");
         int size2 = Integer.parseInt(bufferedReader.readLine());
